@@ -1,4 +1,1 @@
-alfianeffendy.github.io
-=======================
-
-Repository of my site
+Repository of my site. Just it. :)
