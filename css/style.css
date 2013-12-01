@@ -118,6 +118,7 @@ p {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+  line-height: 60px;
   
   background: #96ED89;
   color: #00261C;
