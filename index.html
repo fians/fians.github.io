@@ -1,68 +1,215 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-		<link rel="icon" type="image/png" href="./img/favicon.png"/>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		
 		<title>Alfiana E. Sibuea</title>
-		<meta name="description" content="Website of Alfiana E. Sibuea, the man who called himself as an experimental hacker. He loves to writing and hacking a code."/>
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="stylesheet" href="./css/style.css" />
-		<script type="text/javascript" src="./js/jquery.js"></script>
-		<script type="text/javascript" src="./js/app.js"></script>
-		</head>
-	<body class="bg-level-1 animate">
+		<meta name="description" content="Personal site of Alfiana Efendi Sibuea, The Experimental Hacker.">
 		
-		<div id="welcome" class="text-center animate">
-			<h1>Hey, let's come in!</h1>
-			<a id="enter" class="btn">Enter</a>
-		</div>
-		
-		<div id="home" class="stealth hide animate">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<style>
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background:#fff;
+	color:#333;
+	font-family: 'Raleway', Heveltica, Arial, sans-serif; 
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	font-size:14px;
+	line-height:160%;
+}
+
+section {
+  width:100%;
+  height:auto;
+}
+
+h1 {
+  font-size:4em;
+  line-height:150%;
+}
+
+h2 {
+  font-size:2em;
+  line-height:100%;
+}
+
+#intro {
+  padding:7em 0;
+  background:#B9121B;
+  color:#F6E497;
+  border-bottom:1em solid #4C1B1B;
+  text-align:center;
+}
+
+#intro img {
+  background:#000;
+  margin:1em;
+  width:10em;
+  height:auto;
+  border-radius: 1em;
+  box-shadow: 0 0 0 0.5em #F6E497;
+}
+
+#link {
+  background:#FCFAE1;
+  font-weight:bold;
+  padding:3em 0;
+}
+
+#link img {
+  width:8em;
+  height:auto;
+  display:block;
+  margin-bottom:0.4em;
+  background:#000;
+  border-radius: 1em;
+  border:0.5em solid #FCFAE1;
+}
+
+#link .row {
+  margin:1em auto;
+}
+
+#link .row.one {
+  width:14em;
+}
+
+#link .row.two {
+  width:28em;
+}
+
+#link .row.three {
+  width:42em;
+}
+
+#link a {
+  display:block;
+  float:left;
+  padding:1.5em;
+  margin:0.5em 1em;
+  cursor:pointer;
+  text-align:center;
+  color:#73562A;
+  border-radius: 1em;
+  transition: background 0.5s, color 0.5s;
+}
+
+#link a:hover {
+  background:#73562A;
+  color:#FCFAE1;
+}
+
+@media all and (max-width:45em) {
+	h1 {
+	  font-size:3em;
+	}
+
+	h2 {
+	  font-size:1.5em;
+	}
+
+	#link img {
+	  width:6em;
+	}
+
+	#link .row.two{
+	  width:21em;
+	}
+
+	#link .row.three {
+	  width:30em;
+	}
+
+	#link a {
+	  margin:0.5em;
+	  padding:1em;
+	}
+}
 			
-			<div id="about">
-				<h1 class="text-center">Hi!</h1>
-				<p>
-					I'm Alfiana E. Sibuea (or just "fian" for short). 
-					I'm self-taught web developer 
-					and living in the most beautiful archipelago 
-					in the middle of the earth. 
-					I speak HTML5, CSS3, Javascript, PHP and
-					still learning Golang. 
-					I love reading, traveling, and making experiment with 
-					source codes.
-				</p>
-				
-				<p class="text-center">
-					<img class="photo" src="./img/photo.jpg" />
-					<br />
-					Me!
-				</p>
+		</style>
+		
+	</head>
+	<body>
+		<section id="intro">
+			<img src="https://avatars3.githubusercontent.com/u/4204007?s=250">
+			<h1>Alfiana E. Sibuea</h1>
+			<h2>The Experimental Hacker</h2>
+		</section>
+		<section id="link">
+			<div class="row one">
+				<a href="http://climbi.com">
+					<img src="./img/climbi.jpg">
+					Climbi
+				</a>
+				<div style="clear:both;"></div>
 			</div>
-			
-			<div id="project">
-				<h2 class="text-center">Projects</h2>
-				<p class="text-center">
-					No project found. Please try again.
-				</p>
+			<div class="row three">
+				<a href="http://fian.svbtle.com">
+					<img src="./img/svbtle.jpg">
+					Blog
+				</a>
+				<a href="http://twitter.com/AlfianEffendy">
+					<img src="./img/twitter.jpg">
+					Twitter
+				</a>
+				<a href="http://www.linkedin.com/pub/alfiana-e-sibuea/42/8a7/827">
+					<img src="./img/linkedin.jpg">
+					LinkedIn
+				</a>
+				<div style="clear:both;"></div>
 			</div>
-			
-			<div id="connect" class="text-center">
-				<h2>Connect</h2>
-				<p>
-					<a href="./img/email.jpg" class="btn" target="_blank" rel="nofollow">Email</a>
-					<a href="http://twitter.com/alfianeffendy" class="btn" rel="nofollow">Twitter</a>
-					<a href="http://github.com/fians" class="btn" rel="nofollow">Github</a>
-					<a href="http://www.linkedin.com/pub/alfiana-e-sibuea/42/8a7/827" class="btn" rel="nofollow">LinkedIn</a>
-				</p>
-			</div>
-			
-		</div>
-		
-		<div id="attribute" class="text-center">
-			Hosted on <a href="http://pages.github.com/" target="_blank" rel="nofollow">Github Page</a>
-			<a href="https://github.com/fians/fians.github.io" target="_blank" rel="nofollow">(Source Code)</a>
-		</div>
-		
+		</section>
 	</body>
 </html>
