@@ -1,5 +1,82 @@
 [
     {
+        "title": "Move Fast and Break Nothing",
+        "url": "http://zachholman.com/talk/move-fast-break-nothing/",
+        "domain": "zachholman.com",
+        "date": "12 October 2014",
+        "rawDate": "12-10-2014"
+    },
+    {
+        "title": "The Horror of a 'Secure Golden Key'",
+        "url": "https://keybase.io/blog/2014-10-08/the-horror-of-a-secure-golden-key",
+        "domain": "keybase.io",
+        "date": "12 October 2014",
+        "rawDate": "12-10-2014"
+    },
+    {
+        "title": "How the global banana industry is killing the world’s favorite fruit",
+        "url": "http://qz.com/164029/tropical-race-4-global-banana-industry-is-killing-the-worlds-favorite-fruit/",
+        "domain": "qz.com",
+        "date": "12 October 2014",
+        "rawDate": "12-10-2014"
+    },
+    {
+        "title": "To Understand Religion, Think Football",
+        "url": "http://nautil.us/issue/17/big-bangs/to-understand-religion-think-football",
+        "domain": "nautil.us",
+        "date": "12 October 2014",
+        "rawDate": "12-10-2014"
+    },
+    {
+        "title": "Can You Ever Really Know an Extraterrestrial?",
+        "url": "http://nautil.us/issue/17/big-bangs/can-you-ever-really-know-an-extraterrestrial",
+        "domain": "nautil.us",
+        "date": "12 October 2014",
+        "rawDate": "12-10-2014"
+    },
+    {
+        "title": "The Unique Merger That Made You (and Ewe, and Yew)",
+        "url": "http://nautil.us/issue/17/big-bangs/the-unique-merger-that-made-you-and-ewe-and-yew",
+        "domain": "nautil.us",
+        "date": "12 October 2014",
+        "rawDate": "12-10-2014"
+    },
+    {
+        "title": "How a 19th Century Math Genius Taught Us the Best Way to Hold a Pizza Slice",
+        "url": "http://www.wired.com/2014/09/curvature-and-strength-empzeal/",
+        "domain": "wired.com",
+        "date": "12 October 2014",
+        "rawDate": "12-10-2014"
+    },
+    {
+        "title": "Artificial Intelligence: How Algorithms Make Systems Smart",
+        "url": "http://www.wired.com/2014/09/artificial-intelligence-algorithms-2/",
+        "domain": "wired.com",
+        "date": "12 October 2014",
+        "rawDate": "12-10-2014"
+    },
+    {
+        "title": "Why Amazon Has No Profits (And Why It Works)",
+        "url": "https://a16z.com/2014/09/05/why-amazon-has-no-profits-and-why-it-works/",
+        "domain": "a16z.com",
+        "date": "12 October 2014",
+        "rawDate": "12-10-2014"
+    },
+    {
+        "title": "Seven lessons I learned from the failure of my first startup, Dinnr",
+        "url": "https://medium.com/@michalbohanes/seven-lessons-i-learned-from-the-failure-of-my-first-startup-dinnr-c166d1cfb8b8",
+        "domain": "medium.com/@michalbohanes",
+        "date": "12 October 2014",
+        "rawDate": "12-10-2014"
+    },
+    {
+        "title": "How Andreessen Horowitz Is Disrupting Silicon Valley",
+        "url": "https://medium.com/life-learning/how-andreessen-horowitz-is-disrupting-silicon-valley-208041d6375d",
+        "domain": "medium.com",
+        "date": "12 October 2014",
+        "rawDate": "12-10-2014"
+    },
+    {
         "title": "How To Waste Time Properly",
         "url": "http://nautil.us/issue/16/nothingness/how-to-waste-time-properly",
         "domain": "nautil.us",
@@ -81,56 +158,56 @@
         "url": "http://techcrunch.com/2014/07/27/on-the-importance-of-forgetting/",
         "domain": "techcrunch.com",
         "date": "10 August 2014",
-        "rawDate": "10-10-2014"
+        "rawDate": "10-08-2014"
     },
     {
         "title": "Customer churn can kill your startup",
         "url": "http://tomblomfield.com/post/81105143223/customer-churn-can-kill-your-startup",
         "domain": "tomblomfield.com",
         "date": "10 August 2014",
-        "rawDate": "10-10-2014"
+        "rawDate": "10-08-2014"
     },
     {
         "title": "Founders On Depression",
         "url": "http://techcrunch.com/2014/07/30/founders-on-depression/",
         "domain": "techcrunch.com",
         "date": "10 August 2014",
-        "rawDate": "10-10-2014"
+        "rawDate": "10-08-2014"
     },
     {
         "title": "Joel Spolsky’s business operating system",
         "url": "http://www.pixelmonkey.org/2014/07/24/spolsky",
         "domain": "pixelmonkey.org",
         "date": "10 August 2014",
-        "rawDate": "10-10-2014"
+        "rawDate": "10-08-2014"
     },
     {
         "title": "The Problem With Founders",
         "url": "http://techcrunch.com/2014/07/20/the-problem-with-founders/",
         "domain": "techcrunch.com",
         "date": "10 August 2014",
-        "rawDate": "10-10-2014"
+        "rawDate": "10-08-2014"
     },
     {
         "title": "How Two Ex-Googlers Turned A Crappy Messaging Service Into A $100 Million App",
         "url": "http://www.fastcodesign.com/3033073/innovation-by-design/how-two-ex-googlers-turned-a-crappy-messaging-service-into-a-100m-app",
         "domain": "fastcodesign.com",
         "date": "10 August 2014",
-        "rawDate": "10-10-2014"
+        "rawDate": "10-08-2014"
     },
     {
         "title": "Innovator’s Dilemma Is Real And Requires Bold Action To Overcome",
         "url": "http://techcrunch.com/2014/07/17/innovators-dilemma-is-real-and-requires-bold-action-to-overcome/",
         "domain": "techcrunch.com",
         "date": "10 August 2014",
-        "rawDate": "10-10-2014"
+        "rawDate": "10-08-2014"
     },
     {
         "title": "The power of lonely",
         "url": "http://www.boston.com/bostonglobe/ideas/articles/2011/03/06/the_power_of_lonely/?page=full",
         "domain": "boston.com",
         "date": "10 August 2014",
-        "rawDate": "10-10-2014"
+        "rawDate": "10-08-2014"
     },
     {
         "title": "The Curse of Smart People",
