@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+        <title>Icelink</title>
+        <meta name="description" content="Interesting tech and science article on the web">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="./static/normalize.css">
+        <link rel="stylesheet" type="text/css" href="./static/app.css">
+
+        <script type="text/javascript" src="./static/lodash.js"></script>
+        <script type="text/javascript" src="./static/randomColor.js"></script>
+        <script type="text/javascript" src="./static/jquery.js"></script>
+        <script type="text/javascript" src="./static/app.js"></script>
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-36521756-2', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+    </head>
+    <body>
+
+        <div id="container">
+
+            <div id="header">
+                <h1>ICELINK</h1>
+                <p>
+                    Interesting tech and science articles on the web. <br>
+                    Compiled by <a href="http://fian.my.id" target="_blank">Alfiana Sibuea</a>
+                </p>
+            </div>
+
+            <div id="content"></div>
+
+            <div id="loader"></div>
+
+            <div id="loadMore" class="hide">
+                <span>Load More</span>
+            </div>
+
+        </div>
+
+        <script id="itemTemplate" type="text/template">
+            <% _.forEach(items, function(item) { %>
+                <div class="item">
+                    <i class="dot" style="background:<%= item.color %>"></i>
+                    <a href="<%= item.url %>" class="title" target="_blank"><%= item.title %></a>
+                    <span class="link"><%= item.domain %></span>
+                    <span class="date"><%= item.date %></span>
+                    <div class="clear"></div>
+                </div>
+            <% }); %>
+        </script>
+
+    </body>
+</html>
